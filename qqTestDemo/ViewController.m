@@ -67,4 +67,10 @@
     [self.view endEditing:YES];//调用UIView中接口关掉键盘
     
 }
+//覆写UIViewController方法，返回YES隐藏状态栏
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 @end
